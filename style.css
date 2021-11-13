@@ -14,7 +14,7 @@ body{
 
 
 .fundo {
-  position: relative;
+  position: absolute;
   width: 100vw;
 }
 
@@ -22,8 +22,8 @@ body{
     position: absolute;
     background-color: whitesmoke;
     width: 28vw;
-    height: 50vh;
-    top:24.3vw;
+    height: 52vh;
+    top:23vw;
     left: 68vh;
     border-radius: 0 0 10% 10%;
 }
@@ -40,15 +40,15 @@ body{
 
 .titulo {
     position: absolute;
-    left: 84vh;
-    top: 27vw;
+    left: 81vh;
+    top: 25vw;
     
 }
 
 .texto-meio {
     position: absolute;
-    left: 81vh;
-    top: 30vw;
+    left: 78vh;
+    top: 28vw;
     font-size: 18px;
     color: hsl(225, 10%, 60%);
     
@@ -56,16 +56,16 @@ body{
 
 .texto-meio-dois {
     position: absolute;
-    left: 81vh;
-    top: 31vw;
+    left: 78vh;
+    top: 29vw;
     font-size: 18px;
     color: hsl(225, 10%, 60%);
 }
 
 .texto-meio-tres {
     position: absolute;
-    left: 88vh;
-    top: 32vw;
+    left: 87vh;
+    top: 30vw;
     font-size: 18px;
     color: hsl(225, 10%, 60%);
 }
@@ -139,4 +139,26 @@ body{
     font-size: 18px;
 }
 
+@media screen and (max-width: 768px ) {
+    body{
+        background-image:url("./images/pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .fundo {
+        width: 1000vw;
+    }
+    
+    .fundo-branco {
+        position: absolute;
+        background-color: whitesmoke;
+        width: 20vw;
+        height: 20vh;
+        top: 50vw;
+        left: 30vh;
+        border-radius: 0 0 10% 10%;
+    }
+
+}
 
