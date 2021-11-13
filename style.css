@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+
+body{
+ position: relative;
+ background-color: hsl(225, 100%, 94%);
+}
+
+
+
+.fundo {
+  position: relative;
+  width: 100vw;
+}
+
+.fundo-branco {
+    position: absolute;
+    background-color: whitesmoke;
+    width: 28vw;
+    height: 50vh;
+    top:24.3vw;
+    left: 68vh;
+    border-radius: 0 0 10% 10%;
+}
+.personagem {
+    
+    position: absolute;
+    width: 28vw;
+    height: 27vh;
+    left: 68vh;
+    top: 10vw;
+    border-radius: 10% 10% 0 0;
+   
+}
+
+.titulo {
+    position: absolute;
+    left: 84vh;
+    top: 27vw;
+    
+}
+
+.texto-meio {
+    position: absolute;
+    left: 81vh;
+    top: 30vw;
+    font-size: 18px;
+    color: hsl(225, 10%, 60%);
+    
+}
+
+.texto-meio-dois {
+    position: absolute;
+    left: 81vh;
+    top: 31vw;
+    font-size: 18px;
+    color: hsl(225, 10%, 60%);
+}
+
+.texto-meio-tres {
+    position: absolute;
+    left: 88vh;
+    top: 32vw;
+    font-size: 18px;
+    color: hsl(225, 10%, 60%);
+}
+
+.anual-plano {
+    position: absolute;
+    width: 24vw;
+    height: 11vh;
+    left: 72vh;
+    top: 35vw;
+    background-color: hsl(225, 100%, 94%);
+    border-radius: 10px;
+    
+}
+
+.icone-musica{
+    position: absolute;
+    width: 3vw;
+    left: 75vh;
+    top: 36.2vw;
+}
+ h4{
+    position: absolute;
+    font-size: 18px;
+    left: 83vh;
+    top: 36.5vw;
+ }
+
+ .valor {
+    position: absolute;
+   font-size: 18px;
+    left: 83vh;
+    top: 38vw;
+    color: hsl(225, 10%, 60%);
+ }
+
+ .change{
+    position: absolute;
+   color: mediumblue;
+    left: 107vh;
+    top: 37.3vw;
+    font-size: 18px;
+ }
+
+ button{
+    position: absolute;
+    left: 72vh;
+    top: 43vw;
+    background-color: mediumblue;
+    width: 24vw;
+    height: 5vh;
+    border-radius: 10px;
+    color: mintcream;
+    font-size: 18px;
+ }
+ button:hover{
+     cursor: pointer;
+ }
+
+ .cancel {
+    position: absolute;
+    left: 89vh;
+    top: 47vw;
+    font-size: 18px;
+    color: hsl(225, 10%, 60%);
+ }
+.attribution{
+    position: absolute;
+    left: 74vh;
+    top: 52vw;
+    font-size: 18px;
+}
+
+
